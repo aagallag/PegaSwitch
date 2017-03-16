@@ -120,6 +120,12 @@ const fns = {
       return parsed
     }
   },
+  dumpfile: {
+    response: 'dumpd',
+    args: 1,
+    help: 'dumpfile <filepath>',
+    helptxt: 'Dump file'
+  },
   gc: {
     response: 'gcran',
     helptxt: 'Forcefully run GC'
